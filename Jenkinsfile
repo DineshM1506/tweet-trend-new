@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label "maven"
+            label 'maven'
         }
     }
 environment {
@@ -11,7 +11,7 @@ environment {
     stages {
         stage("build") {
           steps {
-            sh "mvn clen deploy"
+            sh 'mvn clen deploy'
           }
     }
 }
