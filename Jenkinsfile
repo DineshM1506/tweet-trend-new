@@ -13,4 +13,5 @@ environment {
           steps {
             sh "mvn clen deploy"
           }
+    }
 }
